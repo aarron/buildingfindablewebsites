@@ -9,7 +9,7 @@ function externalLinks() {
 	var anchors = document.getElementsByTagName("a");
 		for (var i=0; i<anchors.length; i++) {
 		   var anchor = anchors[i];
-		   if (anchor.getAttribute("href") && anchor.getAttribute("rel") == "external") { anchor.target = "_blank"; }
+		   if (anchor.getAttribute("href") && anchor.getAttribute("rel") == "external") { anchor.target = "_blank"; anchor.rel = "external noopener noreferrer"; }
 		} // End Loop
 }
 
@@ -60,7 +60,7 @@ function emailProtect() {
 		var addr;
 		try { addr = window.atob(data); } catch (e) { continue; }
 		anchor.href = "mailto:" + addr;
-		anchor.innerHTML = addr;
+		anchor.textContent = addr;
 	}
 }
 
