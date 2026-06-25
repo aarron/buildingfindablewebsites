@@ -163,3 +163,7 @@ input, textarea {border:1px solid #999; width:100%; padding:5px; background-colo
 ------------------------------------------------------------------*/
 #feedback #advocacy {margin-top:40px}
 #feedback .tags {margin:10px 0 !important;}
+/* 2026 archive notice banner (links to the "What's Changed" author note) */
+#archive-notice {clear:both; box-sizing:border-box; background:#f03; color:#fff; padding:.55em 1em; margin:0 0 1.2em 0; font-size:95%;}
+#archive-notice a {color:#fff !important; font-weight:bold; text-decoration:underline;}
+#archive-notice a:hover {color:#232831 !important;}

@@ -4,6 +4,7 @@
   "trailingSlash": false,
   "rewrites": [
     { "source": "/index.php", "destination": "/index.html" },
+    { "source": "/whats-changed.php", "destination": "/whats-changed.html" },
     { "source": "/table-of-contents.php", "destination": "/table-of-contents.html" },
     { "source": "/findability-checklist.php", "destination": "/findability-checklist.html" },
     { "source": "/bonus-chapters.php", "destination": "/bonus-chapters.html" },
