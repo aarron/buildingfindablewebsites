@@ -1,0 +1,15 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": false,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/index.php", "destination": "/index.html" },
+    { "source": "/table-of-contents.php", "destination": "/table-of-contents.html" },
+    { "source": "/findability-checklist.php", "destination": "/findability-checklist.html" },
+    { "source": "/bonus-chapters.php", "destination": "/bonus-chapters.html" },
+    { "source": "/code.php", "destination": "/code.html" },
+    { "source": "/resources.php", "destination": "/resources.html" },
+    { "source": "/events.php", "destination": "/events.html" },
+    { "source": "/feedback.php", "destination": "/feedback.html" }
+  ]
+}

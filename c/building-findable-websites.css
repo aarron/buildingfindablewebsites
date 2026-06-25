@@ -1,0 +1,165 @@
+
+
+
+/* General
+------------------------------------------------------------------*/
+body {background:#3f4855 url("../i/bg-tile.gif") repeat-x; margin:0;}
+
+h1 {text-indent:-9999px; background:url("../i/building-findable-websites.gif") no-repeat 240px 0; height:166px; padding:0; margin:0; z-index:1;}
+h2 {color:#fff !important;}
+h3 {background:#232831 none repeat scroll 0% 50%;
+border-bottom:5px solid #FFFFFF;
+color:#FFFFFF !important;
+padding:8px 12px;}
+h4 {background-color:#FFFFFF;
+border-bottom:1px solid #666666;
+color:#333333 !important;
+font-weight:bold;
+margin-bottom:0.5em;
+margin-top:3em;
+padding:2px 6px;}
+h5 {color:#fff !important; margin:1.4em 0 .5em}
+
+#about-author h3 {background:transparent; color:#000 !important; border-bottom:1px solid #fff; margin:2.5em 0pt 0.5em; padding:.5em 0 .25em 0;}
+#advocacy h3 {background-color:#fff; color:#666 !important; border-bottom-color:#666; margin-top:.8em;}
+
+a {color:#fff;}
+a:link {color:#fff;}
+a:visited {color:#fff;}
+a:hover {color:#000; text-decoration:none;}
+a:active {color:#000;}
+
+blockquote {color:#fff !important;}
+cite {display:block;background:#999999 none repeat scroll 0%;color:#333333 !important; font-size:90%; font-style:italic; padding:1em 0pt 1em 1em;}
+cite strong {color:#000 !important; font-style:normal;}
+.bqstart1 {float: left; margin:-16% .3% -5% 0; font-size: 700%; color: #FF0000;}
+.bqend1 {float: right; margin:-40% .5% 0 0; font-size: 700%; color: #FF0000;}
+.bqstart2 {float: left; margin:-15% .3% -5% 0; font-size: 700%; color: #FF0000;}
+.bqend2 {float: right; margin:-40% .5% 0 0; font-size: 700%; color: #FF0000;}
+
+strong {color:#fff !important;}
+em {color:#fff !important; background-color:#3f4855;}
+
+ul {list-style-image:url("../i/bullett.gif"); margin-left:10px;}
+
+/* Forms
+------------------------------------------------------------------*/
+form {text-align:right;}
+fieldset {text-align:left; border-left:0; border-right:0; border-bottom:0; border-top:1px solid #96999c; padding:.9em 0 0 0 !important; margin: 0 0 1em 0;}
+legend {font-size:115%; font-weight:bold; color:#fff; padding-right:10px;}
+label {display:block; margin-top:5px;}
+input, textarea {border:1px solid #999; width:100%; padding:5px; background-color:#eee; color:#333 !important; font-size:105%; font-family:"Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;}
+.btn {width:80px; margin:10px -10px 10px 0; padding:3px; font-size:105%; border:1px solid #fff; background-color:#f03; color:#fff !important;}
+.notification {color:#f03 !important; text-align:right; font-size:80%;}
+.error {color:#D12F19 !important;}
+.success {color: #529214 !important;}
+
+/* Utility
+------------------------------------------------------------------*/
+.important {font-size:125%;}
+
+.runleft {float:left; margin:5px 10px 5px 0; border:2px solid #fff;}
+.runright {float:right; margin:5px 0 5px 10px; border:2px solid #fff;}
+
+.alt {background-color:#fff; color:#000 !important; font-weight:bold; text-transform:uppercase; font-size:150%; padding:30px; margin-bottom:50px;}
+
+.vcard {font-size:90%;}
+.fn {font-size:120%; font-weight:bold; color:#fff !important;}
+.vcard-icon {background:url("../i/hcard.gif") no-repeat left; padding-left:34px;} 
+.cal-icon {background:url("../i/cal.gif") no-repeat left; padding-left:34px;}
+
+.vevent {margin-bottom:40px;}
+.summary {font-size:110%; font-weight:bold; display:block; color:#fff !important;}
+
+.pdf {background:url("../i/pdf.gif") left bottom no-repeat; padding-left:28px; padding-top:6px;}
+.zip {background:url("../i/zip.gif") left center no-repeat; padding-left:20px;}
+.facebook {background:url("../i/facebook.png") left center no-repeat; padding:5px 5px 5px 28px;}
+.amazon {background:url("../i/amazon.png") left center no-repeat; padding-left:20px;}
+.twitter {background:url("../i/twitter.png") left center no-repeat; padding:5px 5px 5px 28px;}
+.digg {background:url(http://digg.com/img/badges/16x16-digg-guy.png) left center no-repeat; padding-left:20px;}
+.stumble {background:url(http://www.stumbleupon.com/images/thumbup.gif) left center no-repeat; padding-left:20px;}
+
+.support-info {margin-top:25px !important;}
+
+/* Disclosure Element
+------------------------------------------------------------------*/
+.display-box {float:left; margin:5px; padding:4px; }
+.expand {display:block; margin-top:8px;}
+.collapse {display:none;}
+.close-box {display:block; padding:2px; text-align:right; text-decoration:none;}
+.close-box:hover {background-color:#f30; color:#fff;}
+
+/* Layout
+------------------------------------------------------------------*/
+.container {border:10px solid #fff; background:#3f4855 !important;}
+
+#header {background-color:#232831;}
+
+#taskbar {background-color:#f03; margin-top:-166px; z-index:100;}
+#taskbar #nav {list-style:none; margin:60px 30px 20px 30px;}
+#taskbar #nav li {margin:5px 0;}
+#taskbar #nav li a {font-size:145%; font-weight:bold; text-decoration:none; color:#fff;}
+#taskbar #nav ul li a:link, #taskbar #nav ul li a:visited {color:#fff !important;}
+#taskbar #nav ul li a:hover, #taskbar #nav ul li a:active {color:#eee !important;}
+#taskbar #nav li a.active {color:#000 !important;}
+
+#taskbar #author {display:block; color:#fff; background-color:#000; padding:4px; text-align:center; text-decoration:none; text-transform:uppercase; font-size:120%;  font-weight:bold;}
+#taskbar #author:hover {color:#000; background-color:#fff;}
+#taskbar #amazon {background-color:#3f4855; padding-top:10px; padding-bottom:10px;}
+#taskbar #amazon .cover {display:block; margin:30px auto 0 auto; border:2px solid #fff;}
+#taskbar #amazon h2 {margin:4px 0 10px 40px;}
+#taskbar #amazon ul {list-style:none; margin-left:60px;}
+#taskbar #amazon ul li {clear:both; margin-bottom:1px;}
+#taskbar #amazon ul li a {text-decoration:none; margin:0 !important; font-size:115%;}
+#taskbar #amazon ul li a img {float:left; margin:3px 8px 3px 0;}
+#taskbar #amazon p {margin:4px 0 10px 40px; font-size:115%; color:#a6a8ab;}
+#taskbar .tellfriendlink {margin:10px 0; display:block;}
+
+#content * {}
+#content {color:#a6a8ab; font-size:125%;}
+#subtitle {margin:10px 0 90px 15px;}
+
+#advocacy {margin-top:-20px;}
+
+#about-author {background-color:#a6a8ab; color:#333; font-size:125%;}
+#about-author h3 {margin-top:10px;}
+#about-author a:link, #about-author a:visited {color:#000 !important;}
+#about-author a:hover, #about-author a:active {color:#fff !important;}
+
+#new-riders {background:url(../i/new-riders.gif) no-repeat; height:51px;}
+#copyright {color:#fff; font-size:80%; margin:10px auto; text-align:center;}
+
+/* Bonus Chapters
+------------------------------------------------------------------*/
+.all-chaps {font-size:125%; background:#fff !important; color:#000 !important; text-decoration:none; padding:6px 6px 6px 30px;}
+.all-chaps a {color:#000 !important;}
+.chapter-cover {float:left; margin:0 10px 6px 0; border:2px solid #fff;}
+#bonus-chapters dt {font-size:125%; font-weight:bold; color:#fff; border-bottom:1px solid #666; margin-bottom:15px;}
+#bonus-chapters dd {margin:0 0 30px 0;}
+#bonus-chapters dd strong {display:block;}
+.chapter-download {clear:left; text-align:right;}
+.chapter-download a.pdf {background:#fff url("../i/pdf.png") 4px 5px no-repeat !important; color:#000 !important; text-decoration:none; padding:6px 6px 6px 30px;}
+
+.checklist {float:right; margin-left:20px;}
+.checklist-download {float:left;}
+
+/* Code
+------------------------------------------------------------------*/
+#code #content ul {margin-bottom:25px;}
+#code #content li {margin:14px 0; border-bottom:1px solid #666; padding:6px 0;}
+#code #content li strong {font-size:bold; font-size:110%;}
+#code #content .zip {display:block; background:#fff url("../i/zip.png") 8px 9px no-repeat !important; color:#000 !important; text-decoration:none; padding:6px 6px 6px 30px;}
+
+/* Events
+------------------------------------------------------------------*/
+#events .event-cal {display:block; margin:4px 0 20px 0;}
+#events .tags {background-color:#525861; padding:8px; margin:10px 0;}
+
+/* Resources
+------------------------------------------------------------------*/
+#resources #content h3 a {font-size:50% !important;}
+
+/* Feedback
+------------------------------------------------------------------*/
+#feedback #advocacy {margin-top:40px}
+#feedback .tags {margin:10px 0 !important;}
